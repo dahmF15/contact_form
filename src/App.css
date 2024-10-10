@@ -1,0 +1,67 @@
+.contact {
+  margin: 20% auto;
+  width: 100%;
+  max-width: 780px;
+  background-color: white;
+}
+
+.label {
+  margin: 0px 0px 0px 20px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputs {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.EmailAdress {
+  margin: 50px 0;
+}
+
+.Query {
+  margin: 50px 0;
+}
+
+.radio-group {
+  display: flex; /* Align items in a row */
+  justify-content: center; /* Center the radio items */
+  margin: 20px 0; /* Add some margin */
+}
+
+.radio-item {
+  border: 2px solid green; /* Green border for each radio button */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Space between border and radio button */
+  margin: 0 10px; /* Equal margin on both sides */
+  display: flex; /* Align items */
+  align-items: center; /* Center items vertically */
+}
+
+.btn {
+  width: 100%;
+  max-width: 200px;
+  height: 48px;
+  background-color: #0D7C69;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: large;
+  margin: 30px auto;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .inputs {
+    flex-direction: column;
+  }
+  .btn {
+    width: 100%;
+  }
+}
